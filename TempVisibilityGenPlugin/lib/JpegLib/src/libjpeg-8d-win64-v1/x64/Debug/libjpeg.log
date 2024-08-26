@@ -1,0 +1,54 @@
+﻿  jaricom.c
+  jcapimin.c
+  jcapistd.c
+  jcarith.c
+  jccoefct.c
+  jccolor.c
+  jcdctmgr.c
+  jchuff.c
+  jcinit.c
+  jcmainct.c
+  jcmarker.c
+  jcmaster.c
+  jcomapi.c
+  jcparam.c
+  jcprepct.c
+  jcsample.c
+  jctrans.c
+  jdapimin.c
+  jdapistd.c
+  jdarith.c
+  Generating Code...
+  Compiling...
+  jdatadst.c
+  jdatasrc.c
+  jdcoefct.c
+  jdcolor.c
+  jddctmgr.c
+  jdhuff.c
+  jdinput.c
+  jdmainct.c
+  jdmarker.c
+  jdmaster.c
+  jdmerge.c
+  jdpostct.c
+  jdsample.c
+  jdtrans.c
+  jerror.c
+  jfdctflt.c
+  jfdctfst.c
+  jfdctint.c
+  jidctflt.c
+  jidctfst.c
+  Generating Code...
+  Compiling...
+  jidctint.c
+  jmemmgr.c
+  jmemnobs.c
+  jquant1.c
+  jquant2.c
+  jutils.c
+  transupp.c
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1397,5): warning MSB8012: TargetPath(C:\Users\tygho0\Desktop\libjpeg-8d-win64-v1\x64\Debug\libjpeg.lib) does not match the Library's OutputFile property value (C:\Users\tygho0\Desktop\libjpeg-8d-win64-v1\Debug\libjpeg.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  libjpeg.vcxproj -> C:\Users\tygho0\Desktop\libjpeg-8d-win64-v1\x64\Debug\libjpeg.lib

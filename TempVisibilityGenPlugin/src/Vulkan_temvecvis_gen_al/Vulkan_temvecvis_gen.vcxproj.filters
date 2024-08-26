@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="cal_visibility_cuda.cpp">
+      <Filter>visgen</Filter>
+    </ClCompile>
+    <ClCompile Include="bvh_test.cpp">
+      <Filter>visgen</Filter>
+    </ClCompile>
+    <ClCompile Include="bvh_cuda.cpp">
+      <Filter>visgen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\g_common\g_common.cpp">
+      <Filter>g_common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\g_common\g_pfm.cpp">
+      <Filter>g_common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\g_common\g_vector.cpp">
+      <Filter>g_common</Filter>
+    </ClCompile>
+    <ClCompile Include="genvis_assis_func.cpp">
+      <Filter>visgen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="visgen">
+      <UniqueIdentifier>{b2df6d1e-6abd-48cc-905d-fc3412bbec04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="g_common">
+      <UniqueIdentifier>{3e2eb086-f13a-4d85-b77a-2ca1d8baf8fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cal_visibility_cuda.h">
+      <Filter>visgen</Filter>
+    </ClInclude>
+    <ClInclude Include="bvh_test.h">
+      <Filter>visgen</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders\my_raytrace_datatypes.h">
+      <Filter>visgen</Filter>
+    </ClInclude>
+    <ClInclude Include="vec_math.h">
+      <Filter>visgen</Filter>
+    </ClInclude>
+    <ClInclude Include="bvh_cuda.h">
+      <Filter>visgen</Filter>
+    </ClInclude>
+    <ClInclude Include="gen_vectorized_visibility.h">
+      <Filter>visgen</Filter>
+    </ClInclude>
+    <ClInclude Include="aabb.h">
+      <Filter>visgen</Filter>
+    </ClInclude>
+    <ClInclude Include="psc_math.cuh">
+      <Filter>visgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\g_common\g_common.h">
+      <Filter>g_common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\g_common\g_pfm.h">
+      <Filter>g_common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\g_common\g_vector.h">
+      <Filter>g_common</Filter>
+    </ClInclude>
+    <ClInclude Include="psc_aabb.cuh">
+      <Filter>visgen</Filter>
+    </ClInclude>
+    <ClInclude Include="genvis_assis_func.h">
+      <Filter>visgen</Filter>
+    </ClInclude>
+    <ClInclude Include="Qtype.h">
+      <Filter>visgen</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cu_initialize_ps.inl">
+      <Filter>visgen</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="gen_vectorized_visibility.cu">
+      <Filter>visgen</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
